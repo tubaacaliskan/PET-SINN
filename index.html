@@ -6,21 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
+    <title>PET'SINN</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
 
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css"
-        integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-
-
-    <title>PET'SINN</title>
 
 </head>
 
@@ -99,11 +96,12 @@
         </div>
     </div>
     <main>
+        <!-- HOME SLIDER -->
         <div class="home-slider">
             <div class="swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slider">
-                        <div class="box">
+                        <div class="box" >
                             <img src="images/medicine-pet-care-people-concept-dog-veterinarian-doctor-vet-clinic.jpg"
                                 alt="">
                             <div class="container">
@@ -125,13 +123,13 @@
 
             </div>
         </div>
-
+        <!-- BILGILENDIRME KARTLARI -->
         <div class="section-information-card">
             <div class="container">
                 <div class="row">
                     <div class="col-md-3 ">
                         <div class="card">
-                            <img  src="images/1491054.jpg" alt="">
+                            <img src="images/1491054.jpg" alt="">
                             <div class="card-body">
                                 <p class="card-text">Acil Müdahale Hizmeti</p>
                             </div>
@@ -169,40 +167,260 @@
             </div>
         </div>
 
+        <!-- HABERLER VE ASI TAKIP BOLUMU -->
 
         <div class="section-news">
             <div class="container">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="news-header">
-                            <div class="container">
-                            <h2>HABERLER VE DUYURULAR</h2>
-                        </div>
-                        </div>
-                        <div class="news-slider">
-                            <div class="news-box">
+                    <div class="col-md-6">
+                        <div class="card news-box">
+                            <div class="news-header">
+                                <h2>HABERLER VE DUYURULAR</h2>
+                            </div>
+                            <div class="news-image">
                                 <img src="images/NoPath - Copy (13).jpg" alt="">
-                                <div class="container">
-                                    <div class="news-box-text">
-                                        <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and publishing industries for previewing layouts and visual mockups.</p>
-                                    </div>
-                                </div>
-                               
+                                <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and
+                                    publishing industries for previewing layouts and visual mockups.
+                                </p>
                             </div>
                         </div>
                     </div>
-                    <div class="col-6">
-                        
+                    <div class="col-md-6">
+                        <div class="card">
+                            <div class="vaccine-follow-up">
+                                <div class="container">
+                                    <div class="vaccine-header">
+                                        <div class="vaccine-header-text">
+                                            <h2>AŞI TAKİP TAKVİMİ</h2>
+                                            <h5>Evcil Hayvanınızı Kayıt Edin ve Aşılarını Takip Edin..</h5>
+                                        </div>
+                                        <div class="vaccine-header-img">
+                                            <img src="images/1491112.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="input-group vaccine-input">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-group mt-4">
+                                                        <input type="text" class="form-control" placeholder="Adınız">
+                                                    </div>
+                                                    <div class="input-group mt-4">
+                                                        <input type="number" class="form-control"
+                                                            placeholder="Telefon Numaranız">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ">
+                                                    <div class="input-group mt-4">
+                                                        <input type="text" class="form-control" placeholder="Soyadınız">
+                                                    </div>
+                                                    <div class="input-group mt-4">
+                                                        <input type="text" class="form-control" placeholder="E-Mail">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="container vaccine-text mt-4">
+                                            <p>Birden fazla dostumuzu ekleyebilirsiniz.</p>
+                                        </div>
+
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="input-group mt-4">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Dostumuzun Adı">
+                                                    </div>
+                                                    <div class="input-group mt-4">
+                                                        <input type="text" class="form-control"
+                                                            placeholder="Kaç Aylık?">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6 ">
+                                                    <select class="form-select mt-4" id="inputGroupSelect01">
+                                                        <option selected>Türü</option>
+                                                        <option value="1">Kedi</option>
+                                                        <option value="2">Kopek</option>
+                                                    </select>
+                                                    <select class="form-select mt-4" id="inputGroupSelect01">
+                                                        <option selected>Cinsiyeti</option>
+                                                        <option value="1">Disi</option>
+                                                        <option value="2">Erkek</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="animal-add-btn">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <button class="btn mt-4">
+                                                        <img src="icons/plus-square-o 2.png" alt="">
+                                                        Bir Tane Daha Ekle
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="animal-save-btn mt-4">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6 mt-4 mb-4">
+                                                    <button class="btn btn-lg">KAYDET</button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- HIZMETLER BOLUMU -->
+
+        <div class="section-services">
+            <div class="services-box">
+                <div class="container">
+                    <div class="row">
+                        <div class="services-title">
+                            <h2>HİZMETLERİMİZ</h2>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li> Teşhis</li>
+                                <li>Tedavi</li>
+                                <li>İç Hastalıkları</li>
+                                <li> Cerrahi</li>
+                                <li>Doğum</li>
+                                <li> Kan Tahlili</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>İdrar Tahlili </li>
+                                <li> Deri Muayenesi </li>
+                                <li>Röntgen</li>
+                                <li>Ultrasonografi</li>
+                                <li>Elektro Kardiyografi</li>
+                                <li>Ekokardiyografi</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <ul>
+                                <li>Aşılamalar </li>
+                                <li>Yoğun Bakım </li>
+                                <li>Pet Shop </li>
+                                <li>Kuaför</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="animal-img">
+                    <img src="icons/NoPath.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <!-- KLINIK FOTOGRAFLARI BOLUMU-->
+        <div class="clinic-photos">
+            <div class="container">
+                <div class="row">
+                    <div class="title">
+                        <h2>KLİNİĞİMİZDEN GÖRÜNTÜLER</h2>
+                    </div>
+                    <div class="col-md-6 left-box">
+                        <img src="images/NoPath - Copy (6).jpg" alt="">
+                    </div>
+                    <div class="col-md-6 right-box">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <img src="images/Mask Group 1.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/Mask Group 2.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img  src="images/Mask Group 3.jpg" alt="">
+                            </div>
+                            <div class="col-md-6">
+                                <img src="images/Mask Group 4.jpg" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <!-- FOOTER BOLUMU-->
+
+        <div class="address-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 left-bar">
+                        <img src="logo/Group 28.svg" alt="">
+                        <h3>PETS INN Veteriner Kliniği</h3>
+                        <p>Adres: Beylerbeyi Yalı boyu caddesi No:33 Üsküdar - İstanbul</p>
+                        <p>0216 422 43 72</p>
+                        <p>bilgi@petsinn.com.tr</p>
+                    </div>
+                    <div class="col-md-4 middle-bar">
+                        <img src="images/Image 1.jpg" alt="">
+                    </div>
+                    <div class="col-md-4 right-bar">
+                        <ul>
+                            <li>Ana Sayfa</li>
+                            <li>Hakkımızda</li>
+                            <li>Ekibimiz</li>
+                            <li>Klinik Hizmetleri</li>
+                            <li>Diğer Hizmetler</li>
+                            <li>Blog</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>2020 Copyright © Tüm Hakları Saklıdır.</p>
+        </div>
+       
     </main>
+    <div class="number-box">
+        <div class="container">
+            <div class="phone-box">
+                <div class="container">
+                    <img src="icons/Icon awesome-phone-alt.png" alt="">
+                    <div class="numbers">
+                        <p class="p1">0216 422 43 72</p>
+                        <p class="p2">Bizi 7/24 arayabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="whatsapp-box">
+                <div class="container">
+                    <img src="icons/Icon awesome-whatsapp.png" alt="">
+                    <div class="whatsapp-numbers">
+                        <p class="p1">0216 422 43 72</p>
+                        <p class="p2">Bizi 7/24 arayabilirsiniz.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
 <script src="script.js"></script>
 
 </html>
